@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_Teaching"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#BBDEFB">
+            <LinearLayout
+                android:id="@+id/ll_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+                <ImageView
+                    android:id="@+id/iv_date"
+                    android:layout_margin="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_date_range_black_24px"/>
+                <TextView
+                    android:id="@+id/tv_datetime"
+                    android:layout_margin="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_mon"
+                android:layout_below="@+id/ll_date"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_local_library_black_24px"/>
+            <TextView
+                android:layout_below="@+id/ll_date"
+                android:layout_toEndOf="@+id/iv_mon"
+                android:id="@+id/tv_monHoc"
+                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+            <ImageView
+                android:id="@+id/iv_time_study"
+                android:layout_below="@+id/iv_mon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_time_study_black_24px"
+                android:layout_margin="6dp"/>
+            <TextView
+                android:layout_toEndOf="@+id/iv_time_study"
+                android:layout_below="@id/tv_monHoc"
+                android:id="@+id/tv_timeStudy"
+                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+            <ImageView
+                android:layout_below="@id/iv_time_study"
+                android:id="@+id/iv_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_school_black_24px"
+                android:layout_margin="6dp"/>
+            <TextView
+                android:layout_toEndOf="@+id/iv_room"
+                android:layout_below="@id/tv_timeStudy"
+                android:id="@+id/tv_class_room"
+                android:layout_margin="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

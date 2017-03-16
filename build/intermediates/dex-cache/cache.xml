@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/Downloads/Hao/app/libs/cloudinary-android-1.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2026ce27a1f4afcc0488e3bc3a965ca9cdf9efe9">
+        <dex dex="/Users/hieutran/Downloads/Hao/app/build/intermediates/transforms/dex/debug/folders/1000/2/cloudinary-android-1.2.2_a6a55df401509052ba33c888872977243a355581/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hieutran/Downloads/Hao/app/libs/cloudinary-core-1.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f9cdf1e3635c9a728c71bd7aaf58e306d001465">
+        <dex dex="/Users/hieutran/Downloads/Hao/app/build/intermediates/pre-dexed/debug/cloudinary-core-1.2.2_85790f1cfd275a39cc331f9c004e028ebfe2bb49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hieutran/Downloads/Hao/app/libs/cloudinary-android-1.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2026ce27a1f4afcc0488e3bc3a965ca9cdf9efe9">
+        <dex dex="/Users/hieutran/Downloads/Hao/app/build/intermediates/pre-dexed/debug/cloudinary-android-1.2.2_a6a55df401509052ba33c888872977243a355581.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/Downloads/Hao/app/libs/cloudinary-core-1.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f9cdf1e3635c9a728c71bd7aaf58e306d001465">
+        <dex dex="/Users/hieutran/Downloads/Hao/app/build/intermediates/transforms/dex/debug/folders/1000/2/cloudinary-core-1.2.2_85790f1cfd275a39cc331f9c004e028ebfe2bb49/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/Downloads/Hao/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cbd5bdd0d384608b585fffe6b1044146d3f235eb">
+        <dex dex="/Users/hieutran/Downloads/Hao/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8f5e8871afc25a335ecfac4b75fdf1f1a0f9324c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hieutran/Downloads/Hao/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/hieutran/Downloads/Hao/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f6abb074cc3079ead9f1c277e5f6d6dc26e28853/classes.dex" />
+    </item>
+
+</items>
